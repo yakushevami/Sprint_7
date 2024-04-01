@@ -7,7 +7,6 @@ import order.Order;
 public class ClientOrder extends Client{
     private static final String CANCEL = "/cancel";
     private static final String ORDERS = "/orders";
-    private static final String TRACK = "/track";
 
     @Step("Create an order")
     public Response createOrder(Order order){
